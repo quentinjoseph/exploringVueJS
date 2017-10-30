@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  height: 100%; }
+
+.selected {
+  color: red; }
+
+.unselected {
+  color: green; }
+  .unselected:before {
+    content: 'hello'; }
